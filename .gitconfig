@@ -34,5 +34,4 @@
 	clean = git-lfs clean -- %f
 [include]
 	path = ~/.gitconfig.proxy
-[includeIf "gitdir:~/work/"]
 	path = ~/.gitconfig.work
